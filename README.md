@@ -1,2 +1,2 @@
-# foundryvyy-merp2e
+# foundryvtt-merp2e
 Un sistema MERP 2ª Edición para Foundry vtt
