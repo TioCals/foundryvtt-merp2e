@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="character-sheet.css">
+</head>
+<body>
+  <div class="character-sheet">
+    <h1>Ficha de Personaje</h1>
+    <form>
+      <div>
+        <label for="strength">Fuerza:</label>
+        <input type="number" name="data.attributes.strength.value" value="{{data.attributes.strength.value}}" data-dtype="Number">
+      </div>
+      <div>
+        <label for="agility">Agilidad:</label>
+        <input type="number" name="data.attributes.agility.value" value="{{data.attributes.agility.value}}" data-dtype="Number">
+      </div>
+    </form>
+  </div>
+  <script src="character-sheet.js"></script>
+</body>
+</html>
